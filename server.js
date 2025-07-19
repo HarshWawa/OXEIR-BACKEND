@@ -14,7 +14,7 @@ connectDB();
 const app = express();
 
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:3000','https://oxeir-frontend-87b1-psi81nnsm-harsh-wawas-projects.vercel.app/'], // Add your frontend origins
+  origin: ['http://localhost:5173', 'http://localhost:3000','https://oxeir-frontend-87b1.vercel.app'], // Add your frontend origins
   credentials: true, // Allow cookies to be sent
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
