@@ -30,7 +30,7 @@
 
 const express = require('express')
 const router = express.Router();
-const {Token_Verify} = require('../middleware/tokenVerify')
+const {Token_Verify} = require('../middleware/tokenverify')
 const instructorController = require("../controllers/instructorController");
 
 // POST routes
