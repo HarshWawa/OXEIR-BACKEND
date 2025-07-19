@@ -2,8 +2,8 @@
  const express = require('express')
  const router = express.Router();
  // const { body } = require('express-validator');
- const {Token_Verify} = require('../middleware/tokenVerify')
- const Is_User_Exist = require('../middleware/isUser')
+ const {Token_Verify} = require('../middleware/tokenverify')
+ const Is_User_Exist = require('../middleware/isuser')
  
  const learnerController = require("../controllers/learnerController");;
  
